@@ -24,7 +24,11 @@ Trying to figure out a way to animate the dropdown on the navbar. Alhamdulillah 
 
 Okay I take that back found another bug where the navbar does not pop up properly, the text can still be seen. Okay I was able to fix it thanks to AI via the use of the overflow property set to hidden. If there is no space in the container, the contents of the container disappear.
 
-Making the Footer and now need to fix the navbar logic, specifically the toggle stuff
+Making the Footer and now need to fix the navbar logic, specifically the toggle stuff. 
+
+Footer is complete and navbar is fixed.
+
+Okay now I have to figure out the react router asap redirect user to another page to search for the books after entering the search query
 
 
 ## User Stories

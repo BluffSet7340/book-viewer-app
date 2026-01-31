@@ -8,8 +8,9 @@ const Footer = () => {
         <h4>BookQuest</h4>
         <p>All rights reserved I guess</p>
         <div className='social-links'>
-            <FaGithub className='github-icon'/>
-            <FaLinkedin className='linkedin-icon'/>
+            <a target='_blank' className='link-style' href='https://www.linkedin.com/in/saeed-mizan/'><FaLinkedin className='socials'/></a>
+            <a target='_blank' className='link-style' href='https://github.com/BluffSet7340'><FaGithub className='socials'/></a>
+            
         </div>
     </footer>
   )

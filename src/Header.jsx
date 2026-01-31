@@ -16,7 +16,7 @@ const NavLinks = () => {
 }
 
 const Header = () => {
-    const [toggle, setIsToggled] = useState(false);
+    const [toggle, setIsToggled] = useState(true);
 
     const toggleNavbar = () => {
         console.log("toggling navbar")

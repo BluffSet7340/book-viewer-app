@@ -125,15 +125,29 @@ ul{
 
 /* footer box */
 .footer-box{
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
   background-color: var(--sand);
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 
 }
 
-.github-icon{
-  font-size: 173px;
+.socials{
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-/* .linkedin-icon{
+.social-links{
+  display: flex;
+  gap: 0.675rem;
+}
 
-} */
+.link-style{
+  text-decoration: none;
+  color: black;
+}
