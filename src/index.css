@@ -1,0 +1,36 @@
+/* index.css is the global stylesheet. You style elements like links, buttons, headers ONCE, and you do not have to repeat that to maintain visual consistency */
+
+/* so the html and the :root are the same selector, the :root matches the root element (HTML)  */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* root variables for colors */
+  --olive-leaf: #41521F;
+  --sand: #A89F68;
+  --soft-fawn: #D0B17A;
+  --peach-glow: #F5C396;
+  --cream: #F5FDC6;
+
+}
+
+*, ::after, ::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  /* padding: 2rem; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
