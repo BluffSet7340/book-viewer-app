@@ -1,10 +1,9 @@
 import './App.css'
 import booksIcon from './assets/books-icon.jpg'
-import {Link} from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
 
-function App() {
+function HomePage() {
   return (
     <>
       <Header/>
@@ -16,7 +15,7 @@ function App() {
           <p>Discover your next great read. Click the button below and type to search for books based on the name of the book, the author, and the publisher</p>
           <button className='search-book-btn'>Click to search</button>
           
-          <img alt='AI generated logo for this site' src={booksIcon} className='book-icon' width={"100%"}/>
+          <img alt='AI generated logo for this site' src={booksIcon} className='book-icon' />
         </section>
 
         {/* Content sections that appear as you scroll */}
@@ -39,4 +38,4 @@ function App() {
   )
 }
 
-export default App
+export default HomePage

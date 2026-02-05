@@ -30,6 +30,18 @@ Footer is complete and navbar is fixed.
 
 Okay now I have to figure out the react router asap redirect user to another page to search for the books after entering the search query
 
+### 3rd February 2026 -
+
+First I have to set the max width property on my AI generated logo otherwise it just looks too big. 
+
+### 5th February 2026 - 
+
+Made a mistake in differentiating between Vite and Vue.js. Vite is just the build tool for building applications in quickly and Vue.js is a React framework. Now I gotta check the docs for the react router and figure it out to add the other pages on the navbar. Following W3 schools for this so let's see how far I can go with this. Okay the routes have been added and now to update the navbar with the Link tags.
+
+Okay after reading the docs I added the routes for the home, contact, and about me pages. I also updated the navbar to use the Link tags, which are just a tags to be able to navigate between pages and also wrapped the Logo in the Link tag to navigate to the home page when clicked. 
+
+Next is to update the contact page with the footer and header and then we proceed to the good part - rendering response from the api.
+
 
 ## User Stories
 
