@@ -1,10 +1,10 @@
 import { StrictMode } from 'react' // activates additional checks and warnings for debugging purposes
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import HomePage from './HomePage.jsx'
+import HomePage from './pages/HomePage.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import About from './About.jsx'
-import ContactMe from './ContactMe.jsx'
+import About from './pages/About.jsx'
+import ContactMe from './pages/ContactMe.jsx'
 
 // main.jsx is the entry point that runs the React app
 

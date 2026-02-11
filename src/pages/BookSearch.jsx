@@ -1,12 +1,12 @@
 import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const BookSearch = () => {
   return (
     <div>
         <Header/>
-        <p>ebola virus</p>
+        <p></p>
         <Footer/>
     </div>
   )
