@@ -170,7 +170,7 @@ ul{
 /* About page */
 
 .container{
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   background-color: var(--peach-glow);
 }
 
@@ -203,7 +203,7 @@ ul{
 
 /* Add some padding inside the card container */
 .card-container {
-  padding: 2px 16px;
+  padding: 8px 16px;
 }
 
 .tech-icon{
@@ -217,4 +217,23 @@ ul{
   gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* contact me page */
+
+.contact-me-page{
+  padding: 2rem 1.5rem;
+  background-color: var(--peach-glow);
+}
+
+.contact-me-desc{
+  max-width: 450px;
+  margin-bottom: 2rem;
+}
+
+/* search books page */
+
+.search-books-page{
+  padding: 2rem 1.5rem;
+  background-color: var(--cream);
 }

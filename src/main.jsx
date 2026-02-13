@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './pages/About.jsx'
 import ContactMe from './pages/ContactMe.jsx'
+import BookSearch from './pages/BookSearch.jsx'
 
 // main.jsx is the entry point that runs the React app
 
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/' element={<HomePage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<ContactMe/>}/>
+        <Route path='/search-books' element={<BookSearch/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,

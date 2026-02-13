@@ -43,11 +43,17 @@ Okay after reading the docs I added the routes for the home, contact, and about 
 Next is to update the contact page with the footer and header and then we proceed to the good part - rendering response from the api.
 
 
+### 13th February 2026 - 
+
+The Frontend and design is done. I'll work on the responsiveness for desktop screens laters. Finally I can implement the redirect and rerouting page to bring the user to a different page to searcht the books.
+
+
 ## User Stories
 
 - [ ] User can enter a search query into an `input` field
 - [ ] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
 - [ ] User can see the list of books appearing on the page
+- [ ] Implement a 404 not found page
 
 ## Bonus features
 

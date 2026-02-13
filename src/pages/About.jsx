@@ -65,7 +65,7 @@ const About = () => {
               <h2>
                 <b>Google Books API</b>
               </h2>
-              <p>API to access and display information of books</p>
+              <p>Access and display information of books</p>
             </div>
           </div>
         </div>
