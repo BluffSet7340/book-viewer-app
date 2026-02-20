@@ -20,22 +20,22 @@ const About = () => {
         <h2 className="tech-used">Technologies</h2>
         {/* Make this a card and link as well, add icons too */}
         <div className="card-collection">
-        <div className="card">
-          {/* setting the width of 100% tells the image to take the maximum
+          <div className="card">
+            {/* setting the width of 100% tells the image to take the maximum
           width possible inside of its parent container */}
-          <img
-            className="tech-icon"
-            src={reactIcon}
-            alt="icon of react"
-            style={{ width: "100%" }}
-          />
-          <div className="card-container">
-            <h2>
-              <b>React</b>
-            </h2>
-            <p>Used for the Frontend</p>
+            <img
+              className="tech-icon"
+              src={reactIcon}
+              alt="icon of react"
+              style={{ width: "100%" }}
+            />
+            <div className="card-container">
+              <h2>
+                <b>React</b>
+              </h2>
+              <p>Used for the Frontend</p>
+            </div>
           </div>
-        </div>
           <div className="card">
             {/* setting the width of 100% tells the image to take the maximum
           width possible inside of its parent container */}

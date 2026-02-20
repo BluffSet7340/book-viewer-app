@@ -47,6 +47,17 @@ Next is to update the contact page with the footer and header and then we procee
 
 The Frontend and design is done. I'll work on the responsiveness for desktop screens laters. Finally I can implement the redirect and rerouting page to bring the user to a different page to searcht the books.
 
+### 17th February 2026 -
+
+So I kept trying to use the redirect function provided by react router dom and it was not working so I quickly searched it up and realized that I should be using the useNavigate function and route to the route that was set in the main.jsx.
+
+### 18th February 2026 - 
+
+Used AI to create the input field and add the search button inside of it. Almost done with this project. Initially I thought I was going to do useEffect and just call it a night and commit but useEffect is not good practice for large codebases or websites where users have to navigate multiple pages and you don't want them to sit through the same api call just to load data they have already seen. I see some interesting alternatives instead on the net so will implement one of those instead. 
+
+### 20th February 2026 -
+
+Added onKeyPress for the search bar, so it runs a function when the user presses enter. Completely forgot the syntax for fetch so using tutorials to figure it out quickly
 
 ## User Stories
 

@@ -3,8 +3,15 @@ import '../App.css'
 import booksIcon from '../assets/books-icon.jpg'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { useNavigate } from 'react-router-dom'
 
 function HomePage() {
+  const navigate = useNavigate();
+
+  const redirectPage = () => {
+    navigate('/search-books')
+  }
+
   return (
     <>
       <Header/>
@@ -14,7 +21,7 @@ function HomePage() {
         <section className='landing-page'>
           <h1 className='landing-page-tagline'>Get the best suggestions for Books from Google Books!</h1>
           <p>Discover your next great read. Click the button below and type to search for books based on the name of the book, the author, and the publisher</p>
-          <button className='search-book-btn'>Click to search</button>
+          <button onClick={redirectPage} className='search-book-btn'>Click to search</button>
           
           <img alt='AI generated logo for this site' src={booksIcon} className='book-icon' />
         </section>
