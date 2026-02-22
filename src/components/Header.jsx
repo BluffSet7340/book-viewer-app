@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import { Link, NavLink, redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavLinks = () => {
     return (
@@ -20,9 +20,9 @@ const Header = () => {
     const [toggle, setIsToggled] = useState(true);
 
     const toggleNavbar = () => {
-        console.log("toggling navbar")
+        // console.log("toggling navbar")
         setIsToggled(!toggle);
-        console.log(toggle);
+        // console.log(toggle);
     }
 
     return (

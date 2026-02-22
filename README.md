@@ -59,6 +59,20 @@ Used AI to create the input field and add the search button inside of it. Almost
 
 Added onKeyPress for the search bar, so it runs a function when the user presses enter. Completely forgot the syntax for fetch so using tutorials to figure it out quickly
 
+### 21st February 2025 - 
+
+Just realized that there is no need for the redux and caching since it will only make the call when the user types in the search and presses enter so no need for all this redux stuff. Spent time on trying to figure out the format of the object and how to access the fields that I need. Just learnt that the padding does not affect the bullet point of the li element but margin does. Padding affects only the text, and element, not the bullet point.
+
+### 22nd February 2025 -
+
+Gotta add loading state too. Now the response works and it is loading up the book cards but they are all different width, probably due to the image sizes. Will fix that too. Weird issue where even after typing the query and pressing enter, the first time is just returns an empty array and the second time I press enter it works. Gotta fix that. 
+
+Now I finally realized that some of the entries do not even have an author, spent a lot of time stumped and only now realized to check the output of the api call.
+
+Added the loader and was able to fix the issue with the missing fields by using optional chaining. 
+
+Added hyperlinking for each book card. 
+
 ## User Stories
 
 - [ ] User can enter a search query into an `input` field
