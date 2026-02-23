@@ -5,18 +5,20 @@ const BookCard = ({ bookDetails }) => {
   if (!bookDetails) return null;
 
   return (
-    <a className="card-external-link" href={`${bookDetails.infoLink}`} target="_blank">
-      <div className="card card-click">
+      <div className="card card-click book-card" onClick={()=>window.open(`${bookDetails.infoLink}`, '_blank')}>
         <img
           className="tech-icon"
           src={bookDetails?.imageLinks?.thumbnail || fallbackImage}
           alt="photo of book thumbnail"
           style={{ width: "300px", height: "300px" }}
         />
+        {/* <div style={{height:"200px"}}>
+          ebola
+        </div> */}
         <div className="book-card-container">
-          <h2>
-            <b>{bookDetails.title}</b>
-          </h2>
+          <h3 className="book-card-title">
+            {bookDetails.title}
+          </h3>
           <ul className="author-list">
             {bookDetails?.authors ? (
               bookDetails.authors.map((author, idx) => (
@@ -29,7 +31,7 @@ const BookCard = ({ bookDetails }) => {
           <p>{bookDetails.publishedDate}</p>
         </div>
       </div>
-    </a>
+
   );
 };
 

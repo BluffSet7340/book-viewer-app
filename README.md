@@ -59,11 +59,11 @@ Used AI to create the input field and add the search button inside of it. Almost
 
 Added onKeyPress for the search bar, so it runs a function when the user presses enter. Completely forgot the syntax for fetch so using tutorials to figure it out quickly
 
-### 21st February 2025 - 
+### 21st February 2026 - 
 
 Just realized that there is no need for the redux and caching since it will only make the call when the user types in the search and presses enter so no need for all this redux stuff. Spent time on trying to figure out the format of the object and how to access the fields that I need. Just learnt that the padding does not affect the bullet point of the li element but margin does. Padding affects only the text, and element, not the bullet point.
 
-### 22nd February 2025 -
+### 22nd February 2026 -
 
 Gotta add loading state too. Now the response works and it is loading up the book cards but they are all different width, probably due to the image sizes. Will fix that too. Weird issue where even after typing the query and pressing enter, the first time is just returns an empty array and the second time I press enter it works. Gotta fix that. 
 
@@ -73,9 +73,19 @@ Added the loader and was able to fix the issue with the missing fields by using 
 
 Added hyperlinking for each book card. 
 
+### 23rd February 2026 - 
+
+The height of the cards vary wildyly so need to fix that. Also need to add wrapping and text clipping so that visually the cards look consistent.
+
+Decided to add event listener to each div since it is causing issues with the CSS when I use the a element. Used window.open method instead. 
+
+Okay let me implement a 404 not found page
+
+Now on to deployment, finally
+
 ## User Stories
 
-- [ ] User can enter a search query into an `input` field
+- [x] User can enter a search query into an `input` field
 - [ ] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
 - [ ] User can see the list of books appearing on the page
 - [ ] Implement a 404 not found page

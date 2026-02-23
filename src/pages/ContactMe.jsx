@@ -11,7 +11,7 @@ const ContactMe = () => {
       <Header />
       <div className="contact-me-page">
         <p className="contact-me-desc">
-          There is no reason for me to have this page just wanted to add it
+          As of this point in time I am working as a web developer however I am open to looking for more opportunities to develop my skillset as a developer. Otherwise there is no reason for me to have this page just wanted to add it
           anyways to show that yea I can handle multi page routing within a
           single page application xD.
         </p>

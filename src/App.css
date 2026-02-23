@@ -95,7 +95,7 @@
 }
 
 .search-book-btn{
-  width: 50%;
+  width: 300px;
   min-width: 250px;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -184,6 +184,7 @@
 
 .tech-used{
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .card{
@@ -227,7 +228,7 @@
 }
 
 .contact-me-desc{
-  max-width: 450px;
+  min-width: 300px;
   margin-bottom: 2rem;
 }
 
@@ -236,6 +237,7 @@
 .search-books-page{
   padding: 2rem 1.5rem;
   background-color: var(--peach-glow);
+  min-height: 70vh;
 }
 
 .search-books-page-title{
@@ -304,6 +306,8 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  min-height: 200px;
+  justify-content: space-around;
 }
 
 .spinner-icon{
@@ -317,7 +321,37 @@
   100% { transform: rotate(360deg); }
 }
 
-.card-external-link{
-  text-decoration: none;
-  color: inherit;
+.book-card{
+  /* min-height: 500px; */
 }
+
+/* Not found page */
+
+.not-found-page{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-height: 70vh;
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.not-found-page-title{
+  min-width: 300px;
+  max-width: 475px;
+}
+
+.not-found-page-question-mark{
+  font-size: 8rem;
+}
+
+/* To Do
+1. Add consistent heights
+2. Add text wrapping for titles
+3. Make sure that the search page takes 100% of viewport height
+*/
+

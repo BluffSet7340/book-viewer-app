@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './pages/About.jsx'
 import ContactMe from './pages/ContactMe.jsx'
 import BookSearch from './pages/BookSearch.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 // main.jsx is the entry point that runs the React app
 
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         {/* route defines the mapping between the url and the component, so the url is
         being defined by the Route element */}
+        <Route path='*' element={<NotFound/>}/>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<ContactMe/>}/>

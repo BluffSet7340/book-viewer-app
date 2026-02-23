@@ -23,11 +23,11 @@ const BookSearch = () => {
           throw new Error(`Response status: ${response.status}`);
         }
         const result = await response.json();
-        console.log(result)
+        // console.log(result)
 
         setBooks(result);
         // finally figured it out
-        console.log(book);
+        // console.log(book);
   
       } catch (error) {
         console.error(error.message);
