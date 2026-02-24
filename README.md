@@ -1,3 +1,24 @@
+## Demo
+
+![Demo of this application](demo/demo-video.gif)
+
+## Social Media opengraph looks like:
+
+![Social media opengraph](demo/social-media-opengraph.png)
+
+## User Stories
+
+- [x] User can enter a search query into an `input` field
+- [x] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
+- [x] User can see the list of books appearing on the page
+- [x] Implement a 404 not found page
+
+## Bonus features
+
+- [x] For each item in the list add a link that will send the User to an external site which has more information about the book
+- [x] Implement a Responsive Design
+- [x] Add loading animations
+
 ## Journal
 
 ### 28th January 2026 - 
@@ -88,18 +109,5 @@ Now on to deployment, finally
 24th February 2026 - 
 
 Dployed on Render and used AI to add some social media of meta tags for visibility
-
-## User Stories
-
-- [x] User can enter a search query into an `input` field
-- [x] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
-- [x] User can see the list of books appearing on the page
-- [x] Implement a 404 not found page
-
-## Bonus features
-
-- [x] For each item in the list add a link that will send the User to an external site which has more information about the book
-- [x] Implement a Responsive Design
-- [x] Add loading animations
 
 
