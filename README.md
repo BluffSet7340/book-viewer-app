@@ -19,6 +19,10 @@
 - [x] Implement a Responsive Design
 - [x] Add loading animations
 
+## Note on AI Usage
+
+I definitely used AI to help me speed up some processes such as styling the input field, adding the meta tags for social media og, and explaining any doubts that I had while styling the application as well as handling any errors and issues with calling the Google Books API. I only used AI to explain issues with my code, most of the code was handwritten by me. This is an attempt to make AI a walking stick, not a crutch for me to rely on. 
+
 ## Journal
 
 ### 28th January 2026 - 
