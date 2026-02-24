@@ -14,6 +14,8 @@ Okay I made a sample request using the google books api and the it works alhamdu
 
 Okay going to commence now with the design and add stuff as I go. 
 
+
+
 Following the user stories below, got it from [here](https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/Book-Finder-App.md) 
 
 Downloaded the icons from the react so that I can get some free icons for the navbar. Just trying to implement this from scratch without AI generating (except for tiny snippets and guides). 
@@ -82,6 +84,10 @@ Decided to add event listener to each div since it is causing issues with the CS
 Okay let me implement a 404 not found page
 
 Now on to deployment, finally
+
+24th February 2026 - 
+
+Dployed on Render and used AI to add some social media of meta tags for visibility
 
 ## User Stories
 
